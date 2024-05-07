@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 
 /todo
+
+# Ignore migrations since we can generate them using `manage.py makemigrations` anytime
+migrations/
